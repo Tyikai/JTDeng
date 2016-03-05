@@ -41,7 +41,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\hardware\LED\led.h)(0x56D2E304)
-I (..\hardware\KEY\key.h)(0x56D6A8DD)
+I (..\hardware\KEY\key.h)(0x56DA67DA)
 I (..\hardware\LCD5110\lcd5110.h)(0x56D6A969)
 I (..\hardware\BIGLED\bigled.h)(0x56D6A8DE)
 I (..\hardware\DIGITALLED\digitalled.h)(0x56D6A8DE)
@@ -181,7 +181,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\hardware\LED\led.c)(0x56D2E304)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\project -I..\startup -I..\system\delay -I..\system\sys -I..\system\usart -I..\STM32F10x_FWLib\inc -I..\hardware\LED -I..\hardware\KEY -I..\hardware\LCD5110 -I..\hardware\SPI -I..\hardware\BIGLED -I..\hardware\DIGITALLED -I..\hardware\UI -I..\hardware\TRAFFIC -I..\hardware\TIMER -I..\hardware\EXTI-I E:\Profession\Application\Keil5\workspace\交通灯\project\RTE-I E:\Profession\Application\Keil5\setup\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I E:\Profession\Application\Keil5\setup\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+F (..\hardware\LED\led.c)(0x56DA67DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\project -I..\startup -I..\system\delay -I..\system\sys -I..\system\usart -I..\STM32F10x_FWLib\inc -I..\hardware\LED -I..\hardware\KEY -I..\hardware\LCD5110 -I..\hardware\SPI -I..\hardware\BIGLED -I..\hardware\DIGITALLED -I..\hardware\UI -I..\hardware\TRAFFIC -I..\hardware\TIMER -I..\hardware\EXTI-I E:\Profession\Application\Keil5\workspace\交通灯\project\RTE-I E:\Profession\Application\Keil5\setup\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I E:\Profession\Application\Keil5\setup\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (..\hardware\LED\led.h)(0x56D2E304)
 I (..\system\sys\sys.h)(0x5055B57C)
 I (..\project\stm32f10x.h)(0x504CB780)
@@ -195,8 +195,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\hardware\KEY\key.c)(0x56D6E44E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\project -I..\startup -I..\system\delay -I..\system\sys -I..\system\usart -I..\STM32F10x_FWLib\inc -I..\hardware\LED -I..\hardware\KEY -I..\hardware\LCD5110 -I..\hardware\SPI -I..\hardware\BIGLED -I..\hardware\DIGITALLED -I..\hardware\UI -I..\hardware\TRAFFIC -I..\hardware\TIMER -I..\hardware\EXTI-I E:\Profession\Application\Keil5\workspace\交通灯\project\RTE-I E:\Profession\Application\Keil5\setup\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I E:\Profession\Application\Keil5\setup\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
-I (..\hardware\KEY\key.h)(0x56D6A8DD)
+F (..\hardware\KEY\key.c)(0x56DA67DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\project -I..\startup -I..\system\delay -I..\system\sys -I..\system\usart -I..\STM32F10x_FWLib\inc -I..\hardware\LED -I..\hardware\KEY -I..\hardware\LCD5110 -I..\hardware\SPI -I..\hardware\BIGLED -I..\hardware\DIGITALLED -I..\hardware\UI -I..\hardware\TRAFFIC -I..\hardware\TIMER -I..\hardware\EXTI-I E:\Profession\Application\Keil5\workspace\交通灯\project\RTE-I E:\Profession\Application\Keil5\setup\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I E:\Profession\Application\Keil5\setup\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\hardware\KEY\key.h)(0x56DA67DA)
 I (..\system\sys\sys.h)(0x5055B57C)
 I (..\project\stm32f10x.h)(0x504CB780)
 I (..\startup\core_cm3.h)(0x4D523B58)
@@ -263,7 +263,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\hardware\TIMER\timer.h)(0x56D6A8DE)
 I (..\system\delay\delay.h)(0x50513B7A)
-I (..\hardware\KEY\key.h)(0x56D6A8DD)
+I (..\hardware\KEY\key.h)(0x56DA67DA)
 I (..\hardware\UI\ui.h)(0x56D3E60E)
 I (..\hardware\LCD5110\lcd5110.h)(0x56D6A969)
 F (..\hardware\DIGITALLED\digitalled.c)(0x56D6A933)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\project -I..\startup -I..\system\delay -I..\system\sys -I..\system\usart -I..\STM32F10x_FWLib\inc -I..\hardware\LED -I..\hardware\KEY -I..\hardware\LCD5110 -I..\hardware\SPI -I..\hardware\BIGLED -I..\hardware\DIGITALLED -I..\hardware\UI -I..\hardware\TRAFFIC -I..\hardware\TIMER -I..\hardware\EXTI-I E:\Profession\Application\Keil5\workspace\交通灯\project\RTE-I E:\Profession\Application\Keil5\setup\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I E:\Profession\Application\Keil5\setup\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\digitalled.o --omf_browse ..\obj\digitalled.crf --depend ..\obj\digitalled.d)
@@ -312,7 +312,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (..\hardware\KEY\key.h)(0x56D6A8DD)
+I (..\hardware\KEY\key.h)(0x56DA67DA)
 I (..\hardware\LED\led.h)(0x56D2E304)
 I (..\hardware\UI\ui.h)(0x56D3E60E)
 I (..\hardware\EXTI\exti.h)(0x56D6A8DD)
@@ -334,6 +334,6 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
 I (..\hardware\UI\ui.h)(0x56D3E60E)
-I (..\hardware\KEY\key.h)(0x56D6A8DD)
+I (..\hardware\KEY\key.h)(0x56DA67DA)
 I (..\hardware\LCD5110\lcd5110.h)(0x56D6A969)
 I (..\system\delay\delay.h)(0x50513B7A)

@@ -16,18 +16,18 @@ void KEY_Init(void)
 {
 	GPIO_InitTypeDef  GPIO_InitStructure;
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB|RCC_APB2Periph_GPIOD
-	|RCC_APB2Periph_GPIOE,ENABLE);									//使能GPIOB、GPIOD、GPIOE时钟
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;						//配置PE8 端口
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;					//配置成上拉输入
-	GPIO_Init(GPIOE, &GPIO_InitStructure);							//根据设定值，配置PE8 端口
+	|RCC_APB2Periph_GPIOE,ENABLE);																		//使能GPIOB、GPIOD、GPIOE时钟
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;													//配置PE8 端口
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;											//配置成上拉输入
+	GPIO_Init(GPIOE, &GPIO_InitStructure);														//根据设定值，配置PE8 端口
 
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;						//配置PB10 端口
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;					//配置成上拉输入
-	GPIO_Init(GPIOB, &GPIO_InitStructure);							//根据设定值，配置PB10 端口
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;												//配置PB10 端口
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;											//配置成上拉输入
+	GPIO_Init(GPIOB, &GPIO_InitStructure);														//根据设定值，配置PB10 端口
 
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11 | GPIO_Pin_13;		//配置PD11、PD13 端口
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;					//配置成上拉输入
-	GPIO_Init(GPIOD, &GPIO_InitStructure);							//根据设定值，配置PB10 端口	
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11 | GPIO_Pin_13;					//配置PD11、PD13 端口
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;											//配置成上拉输入
+	GPIO_Init(GPIOD, &GPIO_InitStructure);														//根据设定值，配置PB10 端口	
 }
 /*-----------------------------------------------------------------------------
 名称:		Get_Key
