@@ -1,0 +1,17 @@
+..\obj\ui.o: ..\hardware\UI\ui.c
+..\obj\ui.o: ..\hardware\UI\ui.h
+..\obj\ui.o: ..\system\sys\sys.h
+..\obj\ui.o: ..\project\stm32f10x.h
+..\obj\ui.o: ..\startup\core_cm3.h
+..\obj\ui.o: E:\Profession\Application\Keil5\setup\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ui.o: ..\project\system_stm32f10x.h
+..\obj\ui.o: ..\project\stm32f10x_conf.h
+..\obj\ui.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\ui.o: ..\project\stm32f10x.h
+..\obj\ui.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\ui.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\ui.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\obj\ui.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\ui.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\ui.o: ..\hardware\LCD5110\lcd5110.h
+..\obj\ui.o: ..\system\delay\delay.h

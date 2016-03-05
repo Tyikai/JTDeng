@@ -1,0 +1,14 @@
+..\obj\sys.o: ..\system\sys\sys.c
+..\obj\sys.o: ..\system\sys\sys.h
+..\obj\sys.o: ..\project\stm32f10x.h
+..\obj\sys.o: ..\startup\core_cm3.h
+..\obj\sys.o: E:\Profession\Application\Keil5\setup\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\sys.o: ..\project\system_stm32f10x.h
+..\obj\sys.o: ..\project\stm32f10x_conf.h
+..\obj\sys.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\sys.o: ..\project\stm32f10x.h
+..\obj\sys.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\sys.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\sys.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\obj\sys.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\sys.o: ..\STM32F10x_FWLib\inc\misc.h

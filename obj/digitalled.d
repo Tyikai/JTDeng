@@ -1,0 +1,17 @@
+..\obj\digitalled.o: ..\hardware\DIGITALLED\digitalled.c
+..\obj\digitalled.o: ..\hardware\DIGITALLED\digitalled.h
+..\obj\digitalled.o: ..\system\sys\sys.h
+..\obj\digitalled.o: ..\project\stm32f10x.h
+..\obj\digitalled.o: ..\startup\core_cm3.h
+..\obj\digitalled.o: E:\Profession\Application\Keil5\setup\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\digitalled.o: ..\project\system_stm32f10x.h
+..\obj\digitalled.o: ..\project\stm32f10x_conf.h
+..\obj\digitalled.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\digitalled.o: ..\project\stm32f10x.h
+..\obj\digitalled.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\digitalled.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\digitalled.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\obj\digitalled.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\digitalled.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\digitalled.o: ..\system\delay\delay.h
+..\obj\digitalled.o: ..\hardware\TIMER\timer.h

@@ -1,0 +1,16 @@
+..\obj\spi.o: ..\hardware\SPI\spi.c
+..\obj\spi.o: ..\hardware\SPI\spi.h
+..\obj\spi.o: ..\system\sys\sys.h
+..\obj\spi.o: ..\project\stm32f10x.h
+..\obj\spi.o: ..\startup\core_cm3.h
+..\obj\spi.o: E:\Profession\Application\Keil5\setup\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\spi.o: ..\project\system_stm32f10x.h
+..\obj\spi.o: ..\project\stm32f10x_conf.h
+..\obj\spi.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\spi.o: ..\project\stm32f10x.h
+..\obj\spi.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\spi.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\spi.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\obj\spi.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\spi.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\spi.o: ..\STM32F10x_FWLib\inc\stm32f10x_spi.h
